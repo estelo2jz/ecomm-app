@@ -10,12 +10,15 @@
   }
 
   &__links {
+    font-size: 14px;
     display: grid;
     grid-row-gap: 10px;
-    font-size: 14px;
 
     & > * {
       text-decoration-line: underline;
+    }
+    .details__item {
+      text-decoration-line: none;
     }
   }
 }
