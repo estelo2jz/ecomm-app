@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div className="header">
         <img className='header__img' src='http://via.placeholder.com/50x50'/>
-        <div className="header_links">
+        <div className="header__links">
           {
               this.props.headerLinks.map((link, index) => {
                 return (
