@@ -99,7 +99,7 @@ export function fetchUserPurchases() {
         creditCard: '-4588',
         user: {
           name: 'Jaden Smith',
-          shippingAddress: '4654 Rounf Lake'
+          shippingAddress: '4654 Round Lake'
         }
       },
     ]
