@@ -28,13 +28,13 @@ componentDidMount() {
       _id: 0,
       title: 'Purchase History',
       active: true,
-      component: <PurchaseHistory/>
+      component: <PurchaseHistory />
     },
     {
       _id: 1,
       title: 'Account Information',
       active: false,
-      component: <AccountInformation/>
+      component: <AccountInformation />
     }
   ]
 
