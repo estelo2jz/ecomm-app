@@ -16,13 +16,13 @@ export function fetchUserPurchases() {
     payload: [
       {
         _id: 0,
-        total: 12.12,
-        orderNumber: '345dgdfg',
+        total: 122.03,
+        orderNumber: '5646sdfs',
         orderDate: new Date().toDateString(),
-        creditCard: '-1235',
+        creditCard: '-8962',
         user: {
-          name: 'Monica Estrada',
-          shippingAddress: '4652 Cylinders South'
+          name: 'Kate Perry',
+          shippingAddress: '8422 South Side'
         }
       },
       {
@@ -87,7 +87,7 @@ export function fetchUserPurchases() {
         orderDate: new Date().toDateString(),
         creditCard: '-1458',
         user: {
-          name: 'Jacki Chan',
+          name: 'Jackie Chan',
           shippingAddress: '5876 Mundelien'
         }
       },
