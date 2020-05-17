@@ -117,15 +117,15 @@ class AccountInformationForm extends Component {
               component={FormButton}
             />
           ] :
-            <Field 
-              className='account-information-form__change-password'
-              onClick={() => this.setState({ showPasswords: true })}
-              type='button'
-              labelTitle='Password'
-              title='Change Password'
-              name='change-password'
-              component={LongGrayButton}
-            />
+          <Field 
+            className='account-information-form__change-password'
+            onClick={() => this.setState({ showPasswords: true })}
+            type='button'
+            labelTitle='Password'
+            title='Change Password'
+            name='change-password'
+            component={LongGrayButton}
+          />
         }
       </form>
     )
