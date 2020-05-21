@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import * as actions from '../../actions';
 import ShopSearchBar from './shopSearchBar';
 import ShopProduct from './shopProduct';
+import ShopCart from './shopCart';
+// import CartButton from './cartButton';
 
 class Shop extends Component {
 
@@ -39,6 +41,7 @@ class Shop extends Component {
       <div className="shop">
         <ShopSearchBar onSubmit={this.onSubmit} className="shop__search-bar" />
         <div className="shop__products">
+        <ShopCart />
           {
             this.props.filteredProducts.map(product => {
               return (
