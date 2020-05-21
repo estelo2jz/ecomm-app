@@ -39,7 +39,7 @@ class ShopProduct extends Component {
           </a>
         </div>
       </div>
-      )
+    )
   }
 }
 
