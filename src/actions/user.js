@@ -1,12 +1,43 @@
 import {
   SET_USER_PURCHASES,
-  SET_PURCHASE_DETAIL
+  SET_PURCHASE_DETAIL,
+  SET_CART_PRODUCTS
 } from './types';
 
 export function setPurchaseDetail(_id) {
   return ({
     type: SET_PURCHASE_DETAIL,
     payload: _id
+  })
+}
+
+export function fetchCartProducts() {
+  return ({
+    type: SET_CART_PRODUCTS,
+    payload: [
+      {
+        _id:0,
+        product: {
+          _id: 0,
+          title: 'JavaScript in the Browser',
+          description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
+          price: 5.99,
+          belongsTo: [0, 1]
+        },
+        quantity: 2
+      },
+      {
+        _id:1,
+        product: {
+          _id: 1,
+          title: 'Graph Database',
+          description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
+          price: 4.02,
+          belongsTo: [0, 1, 6]
+        },
+        quantity: 1
+      },
+    ]
   })
 }
 
