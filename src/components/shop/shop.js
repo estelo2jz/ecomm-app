@@ -8,6 +8,13 @@ import ShopCart from './shopCart';
 // import CartButton from './cartButton';
 
 class Shop extends Component {
+  constructor(props) {
+    super(props); 
+
+    this.state = {
+      showCart: true
+    }
+  }
 
   componentDidMount() {
 
@@ -41,7 +48,6 @@ class Shop extends Component {
       <div className="shop">
         <ShopSearchBar onSubmit={this.onSubmit} className="shop__search-bar" />
         <div className="shop__products">
-        <ShopCart />
           {
             this.props.filteredProducts.map(product => {
               return (
@@ -50,7 +56,9 @@ class Shop extends Component {
             })
           }
         </div>
-        {/* shop cart button component */}
+          {
+            this.state.showCart ? <ShopCart className="shop__cart" /> : ''
+          }
       </div>
     )
   }
