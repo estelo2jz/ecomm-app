@@ -30,7 +30,8 @@ export function fetchCartProducts() {
           title: 'JavaScript in the Browser',
           description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
           price: 5.99,
-          belongsTo: [0, 1]
+          belongsTo: [0, 1],
+          imageUrl: 'http://via.placeholder.com/80x80'
         },
         quantity: 2
       },
@@ -41,7 +42,8 @@ export function fetchCartProducts() {
           title: 'Graph Database',
           description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
           price: 4.02,
-          belongsTo: [0, 1, 6]
+          belongsTo: [0, 1, 6],
+          imageUrl: 'http://via.placeholder.com/80x80'
         },
         quantity: 1
       },

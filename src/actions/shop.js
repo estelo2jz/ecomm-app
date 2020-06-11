@@ -65,49 +65,56 @@ export function fetchProducts() {
         title: 'JavaScript in the Browser',
         description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
         price: 1.99,
-        belongsTo: [0, 1]
+        belongsTo: [0, 1],
+        imageUrl: 'http://via.placeholder.com/80x80'
       },
       {
         _id: 1,
         title: 'Graph Database',
         description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
         price: 4.02,
-        belongsTo: [0, 1, 6]
+        belongsTo: [0, 1, 6],
+          imageUrl: 'http://via.placeholder.com/80x80'
       },
       {
         _id: 2,
         title: 'Full Stack Development',
         description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
         price: 6.03,
-        belongsTo: [0, 1, 4]
+        belongsTo: [0, 1, 4],
+          imageUrl: 'http://via.placeholder.com/80x80'
       },
       {
         _id: 3,
         title: 'User Interface Design',
         description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
         price: 12.86,
-        belongsTo: [0, 2]
+        belongsTo: [0, 2],
+          imageUrl: 'http://via.placeholder.com/80x80'
       },
       {
         _id: 4,
         title: 'JavaScript Development',
         description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
         price: 6.33,
-        belongsTo: [0, 1]
+        belongsTo: [0, 1],
+        imageUrl: 'http://via.placeholder.com/80x80'
       },
       {
         _id: 5,
         title: 'User Experience Design',
         description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
         price: 8.56,
-        belongsTo: [0, 2]
+        belongsTo: [0, 2],
+          imageUrl: 'http://via.placeholder.com/80x80'
       },
       {
         _id: 6,
         title: 'Advance OOP',
         description: 'git push origin will push changes from all local branches to matching branches the origin remote. git push origin master will push changes from the local master branch to the remote master branch. git push origin master:staging will push changes from the local master branch to the remote staging branch if it exists.',
         price: 9.55,
-        belongsTo: [0, 6]
+        belongsTo: [0, 6],
+          imageUrl: 'http://via.placeholder.com/80x80'
       },
     ]
   })
