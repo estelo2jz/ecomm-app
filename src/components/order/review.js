@@ -22,6 +22,7 @@ class Review extends Component {
     this.props.cartProducts.map(cartProduct => {
       subtotal += cartProduct.quantity * cartProduct.product.price;
     })
+    console.log(subtotal);
     return (
       <div className="review">
         <PageTitle className="review__page-title" title='Order review' />
