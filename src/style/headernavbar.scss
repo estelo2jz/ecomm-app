@@ -6,6 +6,7 @@
   align-items: center;
   grid-template-rows: 1fr;
   grid-template-columns: [img-s] 1fr [img-e links-s] 1fr [links-e];
+  cursor: pointer;
 
   &__img {
     transform: translateX(25px);
@@ -53,6 +54,10 @@
   color: #e6e6e6;
   font-size: 18px;
   font-weight: normal;
+
+  &__link {
+    cursor: pointer;
+  }
 
   & > * {
     grid-row: s/e;
